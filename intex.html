@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/glopal.css">
-   
+
 </head>
 
 <body>
@@ -63,7 +63,6 @@
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="7000">
                 <div class="container-fluid text-center w-100 h-auto  d-grid  hero-1">
-
                     <div class="row d-flex justify-content-center align-items-center">
                         <div class="col" data-aos="fade-up">
                             <p style="color: var(--bs-gray-100); font-family: var( --bs-font-monospace);"
@@ -312,7 +311,8 @@
                 <h2 style="font-weight: 700;">For Your Family!</h2>
                 <h6 class="mt-4" style="word-spacing: 4px;">There are many variations of passages look even slightly
                     believab If you are going to use a passage.</h6>
-                <input class="mt-3 py-2" style="border: none;" type="email" placeholder="Your Mail">
+                <input class="mt-3 py-2" style="border: none; border-bottom:2px solid gray ;" type="email"
+                    placeholder="Your Mail">
                 <button class="btn btn-primary">Subscribe</button>
             </div>
         </div>
@@ -362,7 +362,7 @@
 
     <!-- The restarund -->
 
-    <div class="container-fluied p-5 mt-5">
+    <div class="container-fluied p-5 mt-5" style="background-image: url(./Img/food-side-bg.png); background-position: right; background-repeat: no-repeat;">
         <div class="row w-100 mt-2">
             <div class="col text-center">
                 <h2>The<span class="clr-1"> Restaurant </span></h2>
@@ -393,7 +393,8 @@
 
     <!-- Events -->
 
-    <div class="container-fliued p-5">
+    <div class="container-fliued p-5"
+        style="background-image: url(./Img/ldp_shape-bg.png); background-position: bottom; background-repeat: no-repeat; background-size: cover; background-color:#056932;">
         <div class="row w-100 mt-2">
             <div class="col text-center">
                 <span>Events</span>
@@ -460,7 +461,7 @@
 
     <!-- Awards -->
 
-    <div class="container-fluied d-flex justify-content-center p-4">
+    <div class="container-fluied d-flex justify-content-center p-5">
         <div class="row gap-4 w-75 ">
             <div class="col-3 align-self-center ">
                 <h1>Awards</h1>
@@ -486,39 +487,42 @@
 
     <!-- Book table -->
 
-    <div class="container-fluied p-5">
+    <div class="container-fluied p-5"
+        style="background-image: url(./Img/booking_tabel_bg.png); background-size: cover;">
         <div class="row">
-            <div class="col border border-danger ">
+            <div class="col  ">
                 <div class="col  text-center">
                     <form action="">
                         <div class="sec-head">
-                            <h4>Reservation</h4>
-                            <h2>Book Your Table</h2>
+                            <h4 class="clr">Reservation</h4>
+                            <h2 class="clr">Book Your Table</h2>
                         </div>
                 </div>
                 <div class="row mt-3 ">
                     <div class="col  left-msg-6 ms-5">
                         <div class="form-group p-2 ps-5">
-                            <label for="name">Name:</label><br>
-                            <input type="text" name="name" id="naame" placeholder="Name" required>
+                            <br>
+                            <input type="text" name="name" id="naame" placeholder="Name *" required>
                         </div>
                         <div class="form-group p-2 ps-5">
-                            <label for="ph">Phone:</label><br>
-                            <input type="number" id="ph" placeholder="Phone" required>
+                            <br>
+                            <input type="number" id="ph" placeholder="Phone *" required>
                         </div>
                         <div class="form-group p-2 ps-5">
-                            <label for="Date">Date:</label><br>
-                            <input type="date" id="Date" placeholder="MM/DD/YYYY" required>
+                            <br>
+                            <input type="date" id="Date" required style="color: grey;">
                         </div>
                     </div>
                     <div class=" col  right-msg-6 ">
                         <div class="form-group p-2">
-                            <label for="mail">E-mail/:</label><br>
-                            <input type="email" placeholder="Email" id="mail" required>
+                            <br>
+                            <input type="email" placeholder="Email *" id="mail" required>
                         </div>
                         <div class="form-group p-2">
-                            <label for="num">Number of Guests:</label><br>
-                            <select name="" id="num" required>
+                            <br>
+                            <select name="" id="num" required class="px-5 p-1"
+                                style="background: none;border: none; border-bottom:2px solid gray; color: gray; font-size: 20px;">
+                                <option value="1"> Client</option>
                                 <option value="1">1 person</option>
                                 <option value="2">2 person</option>
                                 <option value="3">3 person</option>
@@ -528,55 +532,165 @@
                             </select>
                         </div>
                         <div class="form-group p-2 ">
-                            <label for="time">Time:</label><br>
-                            <input type="time" placeholder="HH:MM:SS" id="time" required>
+                            <br>
+                            <input type="time" placeholder="HH:MM:SS" id="time" required style="color: gray;">
                         </div>
                     </div>
-                    <div class="book text-center">
-                        <button class="btn btn-primary">Book Now !</button>
+                    <textarea name="" id="" rows="3" placeholder="Your Note *"
+                        style=" padding: 0;font-size: 20px; background: none; color: gray; border: none; border-bottom:2px solid gray ; width: 490px;margin-top: 15px; margin-left: 6.5rem;"></textarea>
+                    <div class="book text-center mt-4">
+                        <button class="btn btn-primary px-3">Book Now !</button>
                     </div>
                     </form>
                 </div>
             </div>
-
-            <div class="col border border-warning">
-                <div class="sec-tit ms-5">
-                    <h2>Opeing Time</h2>
-                </div>
-                <ul class="mt-4" style="list-style: none;">
-                    <li class="d-flex gap-5">
-                        <h4>Sunday</h4>
-                         <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                    </li >
-                    <li class="d-flex gap-5">
-                        <h4>Monday</h4>
-                         <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                    </li>
-                    <li class="d-flex gap-5">
-                        <h4>Tuesday</h4>
-                         <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                    </li>
-                    <li class="d-flex gap-5">
-                        <h4>Wednesday</h4>
-                         <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                    </li>
-                    <li class="d-flex gap-5">
-                        <h4>Thursday</h4>
-                        <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                    </li>
-                    <li class="d-flex gap-5">
-                        <h4>Friday</h4>
-                        <h4 class="clr-1">Closed</h4>
-                    </li>
-                    <li class="d-flex gap-5">
-                        <h4>Saturday</h4>
-                        <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                    </li>
-                </ul>
+            <div class="col gap-3 ">
             </div>
         </div>
     </div>
 
+    <!-- shop -->
+
+    <div class="container-fluied p-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./Img/product_1.png" class="p-5" alt="...">
+                    <div class="card-body text-center">
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h6>₹ 250.00</h6>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./Img/product_2.png" class="p-5" alt="...">
+                    <div class="card-body text-center">
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h6>₹ 250.00</h6>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./Img/product_3.png" class="p-5" alt="...">
+                    <div class="card-body text-center">
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h6>₹ 250.00</h6>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./Img/product_4.png" class="p-5" alt="...">
+                    <div class="card-body text-center">
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h6>₹ 250.00</h6>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./Img/product_5.png" class="p-5" alt="...">
+                    <div class="card-body text-center">
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h6>₹ 250.00</h6>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./Img/product_6.png" class="p-5" alt="...">
+                    <div class="card-body text-center">
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h6>₹ 250.00</h6>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./Img/product_7.png" class="p-5" alt="...">
+                    <div class="card-body text-center">
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h6>₹ 250.00</h6>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./Img/product_8.png" class="p-5" alt="...">
+                    <div class="card-body text-center">
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h6>₹ 250.00</h6>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./Img/hero_3_3.png" class="p-5" alt="...">
+                    <div class="card-body text-center">
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h6>₹ 250.00</h6>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Discount -->
+
+     <div class="container-fluied p-5" style="background:repeating-linear-gradient(to right,#0f0f0ff2,#612b0bf2,#eb5404ee,#1e140fe6); ">
+        <div class="row">
+            <div class="col  align-self-center" >
+                <h4 class="clr-1 mt-3" style="font-size: 2.4rem;">Get 30% Discount</h4>
+                <h1 class="clr mt-4" style="font-size: 4.4rem;">Grill Chicken Stick</h1>
+                <h4 class="clr mt-4" style="font-size: 2.4rem;">Limited Offer</h4>
+                <button class="mt-4 btn btn-primary p-2">Order Now !</button>
+            </div>
+            <div class="col position-relative ">
+                <img src="./Img/discount.png" alt="">
+                <div class="col-3 position-absolute end-0 d-flex justify-content-center align-items-center" style="height: 27vh;width: 25vh; bottom: 60px; background-image: url(https://wordpress.themehour.net/restar/wp-content/uploads/2024/05/shape_bg_2.svg); background-repeat: no-repeat; background-size: cover;">
+                    <h1 class="clr">$30</h1>
+                </div>
+            </div>
+        </div>
+     </div>
 
 
 

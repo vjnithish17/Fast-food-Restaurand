@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
- .hero-1,
-        .hero-bg1 {
-            background-image: url(./Img/hero_bg_1.png);
+ .hero-1, .hero-bg1 {
+            background-image: url(../Img/hero_bg_1.png);
             background-color: #F4EFE4;
         }
 
@@ -91,4 +90,11 @@
         .item4 {
             grid-row: span 1;
             /* big right image */
+        }
+        input{
+            background: none;
+            border: none;
+            border-bottom: 2px solid gray;
+            padding-right: 30px;
+            font-size: 20px;
         }

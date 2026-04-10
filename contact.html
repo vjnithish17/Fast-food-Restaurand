@@ -1,82 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fast Food Restaurant</title>
+    <link rel="icon" href="./Img/logo.svg">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/glopal.css">
 </head>
+
 <body>
-    
 
+    <!-- HEADER -->
 
+    <nav class="navbar navbar-expand-lg bg-white sticky-top border">
+        <div class="container-fluid">
 
+            <!-- Logo -->
+            <a class="navbar-brand ps-4" href="#">
+                <img src="./Img/logo.svg" alt="">
+            </a>
 
+            <!-- Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <!-- Collapsible Content -->
+            <div class="collapse navbar-collapse justify-content-between" id="navContent">
 
+                <!-- Menu -->
+                <ul class="navbar-nav mx-auto gap-4 h5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./intex.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
 
-
-
-
-
-
-
-
- <div class="col gap-3 ">
-                <div class=" col sec-tit text-center ">
-                    <h2>Opeing Time</h2>
+                <!-- Right Side -->
+                <div class="d-flex align-items-center gap-3">
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-shopping-cart"></i>
+                    <button class="btn btn-primary"><a href="./book.html"
+                            style="text-decoration: none;color: black;">Reserve A Table</a></button>
                 </div>
-                <div class="row p-3 ">
-                    <div class="col d-flex justify-content-center" style="height: 300px;">
-                        <ul style="list-style: none;">
-                            <li>
-                                <h4>Sunday</h4>
-                            </li>
-                            <li>
-                                <h4>Monday</h4>
-                            </li>
-                            <li>
-                                <h4>Thuesday</h4>
-                            </li>
-                            <li>
-                                <h4>Wednesday</h4>
-                            </li>
-                            <li>
-                                <h4>Thursday</h4>
-                            </li>
-                            <li>
-                                <h4>Friday</h4>
-                            </li>
-                            <li>
-                                <h4>Saturday</h4>
-                            </li>
-                        </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- home -->
+
+    <div class="container-fluid d-flex justify-content-center  p-5"
+        style="background-image: url(./Img/book.home1.jpg); background-size: cover;">
+
+        <div class="col-4 p-5" style="min-height: 40vh;">
+            <h1 class="text-center"><a href="./intex.html"
+                    style="font-size: 4rem; text-decoration: none; color: #f7f7f7;">Contact As </a></h1>
+        </div>
+    </div>
+
+
+
+    <!-- MAP -->
+    <div class="container p-4 mt-3">
+
+        <div class="row">
+            <!-- <div class="col text-center p-3 mb-5">
+                <h2><span class="clr-1"> Contact</span></h2>
+                <img src="./Img/title-shape.png" alt="">
+            </div>
+        </div> -->
+
+            <div class="row align-items-stretch ">
+                <div class="col-md-6 d-flex ">
+                    <div class="contact-card h-100 p-4">
+                        <h2 class="mb-3 ">Drop Us Line</h4>
+                            <form action="" class="p-2">
+                                <label for="name" class="lap">Full name</label><br>
+                                <input type="text" id="name" class="in" placeholder="What's your full name"
+                                    required><br>
+                                <label for="mail" class="lap">E-mail</label><br>
+                                <input type="email" id="mail" class="in" placeholder="your@gmail.com" required><br>
+                                <label for="msg" class="lap">Message</label><br>
+                                <textarea name="What" id="msg" rows="2" class="in"
+                                    placeholder="Write your message for the team here ..."></textarea>
+                                <br>
+                                <input class="btn btn-primary " type="submit">
+                            </form>
                     </div>
-                    <div class="col d-flex justify-content-start">
-                        <ul style="list-style: none;">
-                            <li>
-                                <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                            </li>
-                            <li>
-                                <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                            </li>
-                            <li>
-                                <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                            </li>
-                            <li>
-                                <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                            </li>
-                            <li>
-                                <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                            </li>
-                            <li>
-                                <h4 class="clr-1">8.00 am - 11.00 pm</h4>
-                            </li>
-                            <li>
-                                <h4 class="clr-1">Closed</h4>
-                            </li>
-                        </ul>
+                </div>
+                <!-- Replace with your map -->
+                <div class="col-12 col-md-12 col-lg-6 p-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4819.8860707588!2d78.07558610635797!3d10.95935090935144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa2faf8af44433%3A0x7ae715a65dcc88a1!2sKarur%20Bus%20Stand!5e0!3m2!1sen!2sin!4v1774080561291!5m2!1sen!2sin"
+                            style="border:0;width:100%; height:100%; min-height:250px;" allowfullscreen loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer text-center text-md-start mt-0">
+
+        <div class="container">
+            <div class="row justify-content-between">
+
+                <!-- LOGO / ABOUT -->
+                <div class="col-md-4 mb-4">
+                    <div class="col">
+                        <img src="./Img/logo.svg" alt="">
+                    </div>
+                    <p>Delicious food, delivered fast! Enjoy burgers, fries, and more with premium taste.</p>
+                    <div class="row h-25  gap-3 mb-3 ico justify-content-center justify-content-lg-start">
+                        <div class="col-1 bod">
+                            <i id="green" class="fa fa-whatsapp" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="col-1 bod">
+                            <i id="blue" class="fa l-blue fa-facebook-official" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="col-1 bod">
+                            <i id="darkblue" class="fa blue fa-twitter" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="col-1 bod">
+                            <i id="red" class="fa red fa-youtube-play" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="col-1 bod">
+                            <i class="fa bink fa-instagram" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LINKS -->
+
+                <div class="col-md-2 mb-4 text-center">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4 text-center">
+                    <h5>HELP</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Authors</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- CONTACT INFO -->
+                <div class="col-md-3 mb-4">
+                    <h4>Contact Info</h4>
+                    <p>Email: info@fastfood.com</p>
+                    <p>Phone: +91 6379410214</p>
+
+                    <div class="social-icons mt-3">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+                <p class="mb-0">© 2026 Fast Food Restaurant | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
 </body>
+
 </html>

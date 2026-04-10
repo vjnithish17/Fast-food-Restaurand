@@ -21,40 +21,51 @@
 
     <!-- HEADER -->
 
-    <div class="container-fluid border sticky-top top-0 d-flex justify-content-between"
-        style="background-color: white;">
-        <div class="logo ps-5">
-            <img src="./Img/logo.svg" alt="">
+    <nav class="navbar navbar-expand-lg bg-white sticky-top border">
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <a class="navbar-brand ps-4" href="#">
+                <img src="./Img/logo.svg" alt="">
+            </a>
+
+            <!-- Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Content -->
+            <div class="collapse navbar-collapse justify-content-between" id="navContent">
+
+                <!-- Menu -->
+                <ul class="navbar-nav mx-auto gap-4 h5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./intex.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Right Side -->
+                <div class="d-flex align-items-center gap-3">
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-shopping-cart"></i>
+                    <button class="btn btn-primary"><a href="./book.html" style="text-decoration: none;color: black;">Reserve A Table</a></button>
+                </div>
+
+            </div>
         </div>
-        <ul class="nav justify-content-center  mx-4  gap-4  h5  align-items-center">
-            <li class="nav-item">
-                <a class="nav-link" href="./intex.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./services.html">Serivces</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
-        <div class="search-border d-flex align-items-center gap-4 h4">
-            <div class="search-icon border p-2 ">
-                <i class="fa fa-search" aria-hidden="true"></i>
-            </div>
-            <div class="shooping-icon border p-2">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-            </div>
-            <div class="purchse-btn">
-                <button class="btn btn-primary">Reserve A Table</button>
-            </div>
-        </div>
-    </div>
+    </nav>
 
 
     <!-- FIRST PAGE1 -->
@@ -66,26 +77,26 @@
                     <div class="row d-flex justify-content-center align-items-center">
                         <div class="col" data-aos="fade-up">
                             <p style="color: var(--bs-gray-100); font-family: var( --bs-font-monospace);"
-                                class="h1 mb-4">Healthy &
+                                class="h1 mb-4 ds position-relative">Healthy &
                                 Quality</p>
                             <span class="display-1" style="font-family: var( --bs-font-sans-serif);">Qualified</span>
                             <h2 class="display-5 mt-4" style="font-family: var( --bs-font-sans-serif);">Food chard</h2>
                             <input class="btn btn-primary" type="button" value="Order now!">
                         </div>
-                        <div class="col position-relative vh-100 ">
+                        <div class="col position-relative  min-vh-100 ">
                             <div class="position-absolute w-75 vh-100 top-0 end-0 " data-aos="fade-left"
                                 style="background-color: var(  --bs-gray-100);">
                             </div>
 
                             <div class="position-absolute position-relative top-0 end-0 h-100 " data-aos="fade-up">
-                                <img class="h-100 p-4 my-3" src="./Img/hero_shape_3_3.png" alt="">
+                                <img class="h-100 p-4 my-3 img-fluid" src="./Img/hero_shape_3_3.png" alt="">
                             </div>
                             <div class="position-absolute position-relative top-0 start-0 h-100 w-75">
-                                <img class="position-absolute top-0 start-0 h-75 p-4 my-4" src="./Img/hero_3_2.png"
-                                    alt="">
+                                <img class="position-absolute img-fluid top-0 start-0 h-75 p-4 my-4"
+                                    src="./Img/hero_3_2.png" alt="">
                             </div>
                             <div class="position-absolute start-0  bottom-0  h-50 ">
-                                <img class=" mh-100 w-75 p-3 my-4  me-5" src="./Img/hero_offer_1.svg" alt="">
+                                <img class=" mh-100 w-75 p-3 my-4 img-fluid me-5" src="./Img/hero_offer_1.svg" alt="">
                             </div>
 
                         </div>
@@ -97,26 +108,26 @@
                     <div class="row d-flex justify-content-center align-items-center">
                         <div class="col" data-aos="fade-up">
                             <p style="color: var(--bs-gray-100); font-family: var( --bs-font-monospace);"
-                                class="h1 mb-4">Healthy &
+                                class="h1 mb-4 ds position-relative">Healthy &
                                 Quality</p>
                             <span class="display-1" style="font-family: var( --bs-font-sans-serif);">Perfection</span>
                             <h2 class="display-5 mt-4" style="font-family: var( --bs-font-sans-serif);">Food Menu</h2>
                             <input class="btn btn-primary" type="button" value="Order now!">
                         </div>
-                        <div class="col position-relative vh-100 ">
+                        <div class="col position-relative  min-vh-100">
                             <div class="position-absolute w-75 vh-100 top-0 end-0 " data-aos="fade-left"
                                 style="background-color: var(  --bs-gray-100);">
                             </div>
 
                             <div class="position-absolute position-relative top-0 end-0 h-100 " data-aos="fade-up">
-                                <img class="h-100 p-4 my-3" src="./Img/hero_shape_3_3.png" alt="">
+                                <img class="h-100 p-4 my-3 img-fluid" src="./Img/hero_shape_3_3.png" alt="">
                             </div>
                             <div class="position-absolute position-relative top-0 start-0 h-100 w-75">
-                                <img class="position-absolute top-0 start-0 h-75 p-4 my-4" src="./Img/hero_3_3.png"
-                                    alt="">
+                                <img class="position-absolute img-fluid top-0 start-0 h-75 p-4 my-4"
+                                    src="./Img/hero_3_3.png" alt="">
                             </div>
                             <div class="position-absolute start-0  bottom-0  h-50 ">
-                                <img class=" mh-100 w-75 p-3 my-4  me-5" src="./Img/hero_offer_1.svg" alt="">
+                                <img class=" mh-100 w-75 p-3 my-4  me-5 img-fluid" src="./Img/hero_offer_1.svg" alt="">
                             </div>
 
                         </div>
@@ -128,26 +139,26 @@
                     <div class="row d-flex justify-content-center align-items-center">
                         <div class="col" data-aos="fade-up">
                             <p style="color: var(--bs-gray-100); font-family: var( --bs-font-monospace);"
-                                class="h1 mb-4">Healthy &
+                                class="h1 mb-4 ds position-relative">Healthy &
                                 Quality</p>
                             <span class="display-1" style="font-family: var( --bs-font-sans-serif);">Fast Food</span>
                             <h2 class="display-5 mt-4" style="font-family: var( --bs-font-sans-serif);">Food Menu</h2>
                             <input class="btn btn-primary" type="button" value="Order now!">
                         </div>
-                        <div class="col position-relative vh-100 ">
+                        <div class="col position-relative  min-vh-100">
                             <div class="position-absolute w-75 vh-100 top-0 end-0 " data-aos="fade-left"
                                 style="background-color: var(  --bs-gray-100);">
                             </div>
 
                             <div class="position-absolute position-relative top-0 end-0 h-100 " data-aos="fade-up">
-                                <img class="h-100 p-4 my-3" src="./Img/hero_shape_3_3.png" alt="">
+                                <img class="h-100 p-4 img-fluid my-3" src="./Img/hero_shape_3_3.png" alt="">
                             </div>
                             <div class="position-absolute position-relative top-0 start-0 h-100 w-75">
-                                <img class="position-absolute top-0 start-0 h-75 p-4 my-4" src="./Img/hero_3_1.png"
-                                    alt="">
+                                <img class="position-absolute img-fluid img-fluid top-0 start-0 h-75 p-4 my-4"
+                                    src="./Img/hero_3_1.png" alt="">
                             </div>
                             <div class="position-absolute start-0  bottom-0  h-50 ">
-                                <img class=" mh-100 w-75 p-3 my-4  me-5" src="./Img/hero_offer_1.svg" alt="">
+                                <img class=" mh-100 w-75 p-3 my-4 img-fluid  me-5" src="./Img/hero_offer_1.svg" alt="">
                             </div>
 
                         </div>
@@ -172,11 +183,11 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active hero-bg1">
-                <div class="row justify-content-center gap-4 py-5 px-4">
+                <div class="row justify-content-center gap-4 py-5 px-1">
 
                     <div class=" col-1 food " style="height: 200px; width: 200px;">
                         <div class="img h-75">
-                            <img src="./Img/category_box_2.png" alt=""  style="border-radius: 50%; border: 2px solid red;">
+                            <img src="./Img/category_box_2.png" alt="">
                         </div>
                         <h5 class="text-center">Chicken soup</h5>
                     </div>
@@ -213,7 +224,7 @@
                 </div>
             </div>
             <div class="carousel-item hero-bg1">
-                <div class="row justify-content-center gap-4 py-5 px-4">
+                <div class="row justify-content-center gap-4 py-5 px-1">
                     <div class=" col-1 " style="height: 200px; width: 200px;">
                         <div class="img  h-75 px-3">
                             <img src="./Img/category_box_1.png" alt="">
@@ -261,13 +272,15 @@
 
     <!-- Welcome About -->
 
-    <div class="container-fluied p-4">
-        <div class="row " style="height: 93vh;">
-            <div class="col"
-                style="background-image: url(./Img/welcome-about-main-bg.png); object-fit: contain; background-repeat: no-repeat;">
+    <div class="container-fluid p-4">
+
+
+        <div class="row ">
+            <div class="col-12 col-md-6 mb-4 mb-md-0 text-center ">
+                <img class="img-fluid" src="./Img/welcome-about-main-bg.png" alt="">
             </div>
-            <div class="col-5 ">
-                <h6>About our <span class="clr-1">restaurant</span></h6>
+            <div class="col-12 col-md-6 p-3 ">
+                <h6 class="mt-3">About our <span class="clr-1">restaurant</span></h6>
                 <h1>We invite you to visit our <span class="clr-1">Fast food Restaurant</span></h1>
                 <h5>At the heart of our kitchen are bold flavors, high-quality ingredients, and a commitment to
                     consistency. From juicy burgers, crispy fries, and cheesy pizzas to spicy wraps and refreshing
@@ -281,49 +294,59 @@
 
 
     <!-- Why choose  -->
+    <div class="container-fluid p-5 position-relative" style="background-color:#b5cbe0;">
 
-    <div class="container-fluied p-5  desgin position-relative" style=" background-color:#b5cbe0;">
-        <div class="row">
+
+        <div class="row text-center mb-4">
             <div class="col">
                 <p>Choose Us</p>
-                <h1>Why <span class="clr-1">Choose Us </span></h1>
+                <h1>Why <span class="clr-1">Choose Us</span></h1>
             </div>
         </div>
-        <div class="row gap-3 w-100 mt-5 ">
-            <div class="col border p-1 px-3 up-slide" style="height: 210px; ">
-                <span class="clr-1 h6 ">o1</span> <br>
-                <h5 style="font-weight: 700;" class="white" id="red">Delicious Food</h5>
-                <p class="mt-4 white">Far far away, behind the word mountains, far from the countries Vokalia and Cere
-                    live the blind texts.</p>
-            </div>
-            <div class="col border up-slide" style="height: 210px;">
-                <span class="clr-1 h6 ">o2</span> <br>
-                <h5 style="font-weight: 700;" class="white" id="red">Expert Chefs</h5>
-                <p class="mt-4 white">Far far away, behind the word mountains, far from the countries Vokalia and Cere
-                    live the blind texts.</p>
-            </div>
-            <div class="col border up-slide" style="height: 210px;">
 
-                <span class="clr-1 h6 ">o3</span> <br>
-                <h5 style="font-weight: 700;" class="white" id="red">Friendly People</h5>
-                <p class="mt-4 white">Far far away, behind the word mountains, far from the countries Vokalia and Cere
-                    live the blind texts.</p>
-            </div>
-            <div class="col border up-slide" style="height: 210px;">
+        <div class="row g-4">
 
-                <span class="clr-1 h6 ">o4</span> <br>
-                <h5 style="font-weight: 700;" class="white" id="red">Parties</h5>
-                <p class="mt-4 white">Far far away, behind the word mountains, far from the countries Vokalia and Cere
-                    live the blind texts.</p>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="border p-4 up-slide h-100">
+                    <span class="clr-1 h6">01</span>
+                    <h5 class="fw-bold mt-2 red h3 ">Delicious Food</h5>
+                    <p class="mt-3 black">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                </div>
             </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="border p-4 up-slide h-100">
+                    <span class="clr-1 h6">02</span>
+                    <h5 class="fw-bold mt-2 h3 red">Expert Chefs</h5>
+                    <p class="mt-3 black">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="border p-4 up-slide h-100">
+                    <span class="clr-1 h6">03</span>
+                    <h5 class="fw-bold mt-2 h3 red">Friendly People</h5>
+                    <p class="mt-3 black">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="border p-4 up-slide h-100">
+                    <span class="clr-1 h6">04</span>
+                    <h5 class="fw-bold mt-2 h3 red">Parties</h5>
+                    <p class="mt-3 black">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                </div>
+            </div>
+
         </div>
+
     </div>
-
 
 
     <!-- The restarund -->
 
-    <div class="container-fluied p-5 mt-5"
+    <div class="container-fluid p-5 mt-5"
         style="background-image: url(./Img/food-side-bg.png); background-position: right; background-repeat: no-repeat;">
         <div class="row w-100 mt-2 mb-5">
             <div class="col text-center">
@@ -338,81 +361,101 @@
             <p class="text-center">lia, there live the blind texts.</p>
         </div>
         <div class="gallery">
-            <div class="item item1">
-                <img src="./Img/dishes_1.jpg" alt="">
+            <div class="item position-relative item1">
+                <img class="dsa" src="./Img/dishes_1.jpg" alt="">
             </div>
-            <div class="item item2">
-                <img src="./Img/dishes_2.jpg" alt="">
+            <div class="item position-relative item2">
+                <img class="dsa" src="./Img/dishes_2.jpg" alt="">
             </div>
-            <div class="item item3">
-                <img src="./Img/dishes_3.jpg" alt="">
+            <div class="item position-relative item3">
+                <img class="dsa" src="./Img/dishes_3.jpg" alt="">
             </div>
-            <div class="item item4">
-                <img src="./Img/dishes_4.jpg" alt="">
+            <div class="item position-relative item4">
+                <img class="dsa" src="./Img/dishes_4.jpg" alt="">
             </div>
         </div>
     </div>
 
     <!-- The About -->
 
-    <div class="container-fluied d-flex justify-content-center py-5"
-        style="background-image: url(./Img/about-bg.png); background-size: cover; background-repeat: no-repeat; height:70vh;">
-        <div class="row gap-3">
-            <div class="col about-r  my-5" style="width: 500px;"></div>
-            <div class="col about-left my-5" style="width: 700px;" data-aos="fade-up">
-                <P class="clr-1">About Our Restaurant</P>
-                <h2 style="font-weight: 700;">We Provide Good Food</h2>
-                <h2 style="font-weight: 700;">For Your Family!</h2>
-                <h6 class="mt-4" style="word-spacing: 4px;">There are many variations of passages look even slightly
-                    believab If you are going to use a passage.</h6>
-                <input class="mt-3 py-2" style="border: none; border-bottom:2px solid gray ;" type="email"
-                    placeholder="Your Mail">
-                <button class="btn btn-primary">Subscribe</button>
+    <div class="container-fluid py-5"
+        style="background-image: url(./Img/about-bg.png); background-size: cover; background-repeat: no-repeat;">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 my-4">
+                    <div class="about-r  w-100" style="height: 300px;"></div>
+                </div>
+
+                <!-- Content -->
+                <div class="col-12 col-md-6 my-4" data-aos="fade-up">
+                    <p class="clr-1">About Our Restaurant</p>
+                    <h2 class="fw-bold">We Provide Good Food</h2>
+                    <h2 class="fw-bold">For Your Family!</h2>
+                    <h6 class="mt-4" style="word-spacing: 4px;">
+                        There are many variations of passages look even slightly believable.
+                        If you are going to use a passage.
+                    </h6>
+                    <div class="mt-3">
+                        <input class="py-2 w-50" style="border: none; border-bottom:2px solid gray;" type="email"
+                            placeholder="Your Mail">
+                        <button class="btn btn-primary ms-2">Subscribe</button>
+                    </div>
+                </div>
+
             </div>
         </div>
-
     </div>
 
     <!-- Offer -->
 
-    <div class="container-fluied  d-flex justify-content-center" style="padding: 15vh;">
-        <div class="row  gap-5">
-            <div class="col  offer position-relative"
-                style="height: 350px; width: 190vh; background-image: url(./Img/pizza.1.jpg); overflow: hidden;">
-                <div class="con position-absolute h-75 w-75" style="top: 50px; left: 35px;">
-                    <h3 class="my-3 clr-1">Delicious</h3>
-                    <h2 class="clr">HUM BURGER</h2>
-                    <h4 class="my-3 clr-1">Limited Offer</h4>
-                    <button class="btn btn-primary mx-4 my-3">Order now</button>
-                </div>
-                <div class="offer position-absolute " style="right: 25px; top: 15px;">
+    <div class="container py-5">
+        <div class="row g-4">
 
-                    <img src="https://wordpress.themehour.net/restar/wp-content/uploads/2024/05/shape_bg_1.svg" alt="">
-                </div>
-                <div class="price position-absolute  p-1" style="height: 70px; width: 60px; right: 39px; top: 26px;">
-                    <h5 class="mt-2 clr">Only</p>
-                        <h5 class="mb-5 ms-2 clr-1">$5</h5>
-                </div>
-            </div>
-            <div class="col offer position-relative" style="background-image: url(./Img/pizza.1.jpg); overflow: hidden;">
-                <div class="con position-absolute h-75 w-75" style="top: 50px; left: 35px;">
-                    <h3 class="my-3 clr-1">Delicious</h3>
-                    <h2 class="clr">Italian Pizza</h2>
-                    <h4 class="my-3 clr-1">Limited Offer</h4>
-                    <button class="btn btn-primary mx-4 my-3">Order now</button>
-                </div>
-                <div class="offer position-absolute " style="right: 25px; top: 15px;">
-                    <img src="https://wordpress.themehour.net/restar/wp-content/uploads/2024/05/shape_bg_1.svg" alt="">
-                </div>
-                <div class="price position-absolute  p-1" style="height: 70px; width: 60px; right: 39px; top: 26px;">
-                    <h5 class="mt-2 clr">Only</p>
-                        <h5 class="mb-5 ms-2 clr-1">$8</h5>
+            <!-- CARD 1 -->
+            <div class="col-12 col-md-6">
+                <div class="offer position-relative text-white p-4 h-100"
+                    style="background-image: url(./Img/pizza.1.jpg); background-size: cover; background-position: center; border-radius: 10px; overflow: hidden; min-height: 300px;">
+
+                    <div class="content">
+                        <h4 class="clr-1">Delicious</h4>
+                        <h2>HUM BURGER</h2>
+                        <p class="clr-1">Limited Offer</p>
+                        <button class="btn btn-primary mt-2">Order now</button>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="position-absolute top-0 end-0 m-3 text-center bg-white text-dark p-2 rounded">
+                        <small>Only</small>
+                        <h6>$5</h6>
+                    </div>
+
                 </div>
             </div>
+
+            <!-- CARD 2 -->
+            <div class="col-12 col-md-6">
+                <div class="offer position-relative text-white p-4 h-100"
+                    style="background-image: url(./Img/pizza.1.jpg); background-size: cover; background-position: center; border-radius: 10px; overflow: hidden; min-height: 300px;">
+
+                    <div class="content">
+                        <h4 class="clr-1">Delicious</h4>
+                        <h2>Italian Pizza</h2>
+                        <p class="clr-1">Limited Offer</p>
+                        <button class="btn btn-primary mt-2">Order now</button>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="position-absolute top-0 end-0 m-3 text-center bg-white text-dark p-2 rounded">
+                        <small>Only</small>
+                        <h6>$8</h6>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </div>
-
-
     <!-- Events -->
 
     <div class="container-fliued p-5"
@@ -431,7 +474,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row gap-3 mt-5">
-                        <div class="col  p-5" style="height: 400px;">
+                        <div class="col-12 col-md-6  p-5" style="height: 400px;">
                             <p class="clr-1">$200.99</p>
                             <h2>Guest Chef Nihgt Party</h2>
                             <p class="mt-3 ">Far far away, behind the word mountains, far from the countries Vokalia and
@@ -452,8 +495,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row gap-3 mt-5" style="flex-direction: row-reverse;">
-                        <div class="col  p-5" style="height: 400px;">
+                    <div class="row gap-3 mt-5 p-4" style="flex-direction: row-reverse;">
+                        <div class="col-12 col-md-6  p-5" style="height: 400px;">
                             <p class="clr-1">$200.99</p>
                             <h2>Birthday Party</h2>
                             <p class="mt-3">Far far away, behind the word mountains, far from the countries Vokalia and
@@ -483,97 +526,106 @@
 
     <!-- Awards -->
 
-    <div class="container-fluied d-flex justify-content-center p-5">
-        <div class="row gap-4 w-75 ">
-            <div class="col-3 align-self-center ">
-                <h1>Awards</h1>
+    <div class="container py-5">
+        <div class="row text-center align-items-center g-4">
+
+            <!-- Title -->
+            <div class="col-12 col-md-3">
+                <h2>Awards</h2>
             </div>
-            <div class="col">
-                <img src="./Img/a-1.png" alt="">
+
+            <!-- Logos -->
+            <div class="col-6 col-md-2">
+                <img src="./Img/a-1.png" class="img-fluid">
             </div>
-            <div class="col ">
-                <img src="./Img/a-2.png" alt="">
+
+            <div class="col-6 col-md-2">
+                <img src="./Img/a-2.png" class="img-fluid">
             </div>
-            <div class="col ">
-                <img src="./Img/a-3.png" alt="">
+
+            <div class="col-6 col-md-2">
+                <img src="./Img/a-3.png" class="img-fluid">
             </div>
-            <div class="col ">
-                <img src="./Img/a-4.png" alt="">
+
+            <div class="col-6 col-md-2">
+                <img src="./Img/a-4.png" class="img-fluid">
             </div>
-            <div class="col">
-                <img src="./Img/a-5.png" alt="">
-            </div>
+
         </div>
     </div>
 
 
     <!-- Book table -->
 
-    <div class="container-fluied p-5"
+    <div class="container-fluid py-5"
         style="background-image: url(./Img/booking_tabel_bg.png); background-size: cover;">
-        <div class="row">
-            <div class="col  ">
-                <div class="col  text-center">
-                    <form action="">
-                        <div class="sec-head">
-                            <h4 class="clr">Reservation</h4>
-                            <h2 class="clr">Book Your Table</h2>
-                        </div>
-                </div>
-                <div class="row mt-3 ">
-                    <div class="col  left-msg-6 ms-5">
-                        <div class="form-group p-2 ps-5">
-                            <br>
-                            <input type="text" name="name" id="naame" placeholder="Name *" required>
-                        </div>
-                        <div class="form-group p-2 ps-5">
-                            <br>
-                            <input type="number" id="ph" placeholder="Phone *" required>
-                        </div>
-                        <div class="form-group p-2 ps-5">
-                            <br>
-                            <input type="date" id="Date" required style="color: grey;">
-                        </div>
-                    </div>
-                    <div class=" col  right-msg-6 ">
-                        <div class="form-group p-2">
-                            <br>
-                            <input type="email" placeholder="Email *" id="mail" required>
-                        </div>
-                        <div class="form-group p-2">
-                            <br>
-                            <select name="" id="num" required class="px-5 p-1"
-                                style="background: none;border: none; border-bottom:2px solid gray; color: gray; font-size: 20px;">
-                                <option value="1"> Client</option>
-                                <option value="1">1 person</option>
-                                <option value="2">2 person</option>
-                                <option value="3">3 person</option>
-                                <option value="4">4 person</option>
-                                <option value="5">5 person</option>
-                                <option value="">More</option>
-                            </select>
-                        </div>
-                        <div class="form-group p-2 ">
-                            <br>
-                            <input type="time" placeholder="HH:MM:SS" id="time" required style="color: gray;">
-                        </div>
-                    </div>
-                    <textarea name="" id="" rows="3" placeholder="Your Note *"
-                        style=" padding: 0;font-size: 20px; background: none; color: gray; border: none; border-bottom:2px solid gray ; width: 490px;margin-top: 15px; margin-left: 6.5rem;"></textarea>
-                    <div class="book text-center mt-4">
-                        <button class="btn btn-primary px-3">Book Now !</button>
-                    </div>
-                    </form>
-                </div>
+
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="text-center mb-4">
+                <h4 class="clr">Reservation</h4>
+                <h2 class="clr">Book Your Table</h2>
             </div>
-            <div class="col gap-3 ">
-            </div>
+
+            <!-- Form -->
+            <form>
+
+
+                <div class="row g-3 for">
+
+                    <!-- Left -->
+                    <div class="col-12 col-md-6">
+                        <input type="text" class="form-control" placeholder="Name *" required>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <input type="email" class="form-control" placeholder="Email *" required>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <input type="number" class="form-control" placeholder="Phone *" required>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <select class="form-select" required style="background-color: #ffffff7a;border: none;">
+                            <option selected disabled>Client</option>
+                            <option>1 person</option>
+                            <option>2 person</option>
+                            <option>3 person</option>
+                            <option>4 person</option>
+                            <option>5 person</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <input type="date" class="form-control" required>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <input type="time" class="form-control" required>
+                    </div>
+
+                    <!-- Textarea -->
+                    <div class="col-12">
+                        <textarea class="form-control" rows="3" placeholder="Your Note *" style="background-color: #ffffff7a;border: none;color: white;"></textarea>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="col-12 text-center">
+                        <button class="btn btn-primary px-5 py-2">Book Now</button>
+                    </div>
+
+                </div>
+
+            </form>
+
         </div>
     </div>
 
     <!-- services -->
 
-    <div class="container-fluied p-5">
+    <div class="container-fluid p-5">
         <div class="row">
             <div class="col text-center p-3 mb-5">
                 <h2>Our Delicious <span class="clr-1">Foods</span></h2>
@@ -582,24 +634,24 @@
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 servis">
                     <img src="./Img/product_1.png" class="p-5" alt="...">
-                    <div class="card-body text-center">
+                    <div class="card-body  text-center bot">
                         <h3>⭐⭐⭐⭐⭐</h3>
-                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h5 class="card-title ho-cl">Breakfast Platter</h5>
                         <h6>₹ 250.00</h6>
                     </div>
                     <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        <small class="text-body-secondary hov">Last updated 3 mins ago</small>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 servis">
                     <img src="./Img/product_2.png" class="p-5" alt="...">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center bot">
                         <h3>⭐⭐⭐⭐⭐</h3>
-                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h5 class="card-title ho-cl">Breakfast Platter</h5>
                         <h6>₹ 250.00</h6>
                     </div>
                     <div class="card-footer">
@@ -608,11 +660,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 servis">
                     <img src="./Img/product_3.png" class="p-5" alt="...">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center bot">
                         <h3>⭐⭐⭐⭐⭐</h3>
-                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h5 class="card-title ho-cl">Breakfast Platter</h5>
                         <h6>₹ 250.00</h6>
                     </div>
                     <div class="card-footer">
@@ -621,11 +673,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 servis">
                     <img src="./Img/product_4.png" class="p-5" alt="...">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center bot">
                         <h3>⭐⭐⭐⭐⭐</h3>
-                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h5 class="card-title ho-cl">Breakfast Platter</h5>
                         <h6>₹ 250.00</h6>
                     </div>
                     <div class="card-footer">
@@ -634,11 +686,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 servis">
                     <img src="./Img/product_5.png" class="p-5" alt="...">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center bot">
                         <h3>⭐⭐⭐⭐⭐</h3>
-                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h5 class="card-title ho-cl">Breakfast Platter</h5>
                         <h6>₹ 250.00</h6>
                     </div>
                     <div class="card-footer">
@@ -647,11 +699,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 servis">
                     <img src="./Img/product_6.png" class="p-5" alt="...">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center bot">
                         <h3>⭐⭐⭐⭐⭐</h3>
-                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h5 class="card-title ho-cl">Breakfast Platter</h5>
                         <h6>₹ 250.00</h6>
                     </div>
                     <div class="card-footer">
@@ -660,11 +712,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 servis">
                     <img src="./Img/product_7.png" class="p-5" alt="...">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center bot">
                         <h3>⭐⭐⭐⭐⭐</h3>
-                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h5 class="card-title ho-cl">Breakfast Platter</h5>
                         <h6>₹ 250.00</h6>
                     </div>
                     <div class="card-footer">
@@ -673,11 +725,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 servis">
                     <img src="./Img/product_8.png" class="p-5" alt="...">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center bot">
                         <h3>⭐⭐⭐⭐⭐</h3>
-                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h5 class="card-title ho-cl">Breakfast Platter</h5>
                         <h6>₹ 250.00</h6>
                     </div>
                     <div class="card-footer">
@@ -686,11 +738,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 servis">
                     <img src="./Img/hero_3_3.png" class="p-5" alt="...">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center bot">
                         <h3>⭐⭐⭐⭐⭐</h3>
-                        <h5 class="card-title">Breakfast Platter</h5>
+                        <h5 class="card-title ho-cl">Breakfast Platter</h5>
                         <h6>₹ 250.00</h6>
                     </div>
                     <div class="card-footer">
@@ -703,73 +755,416 @@
 
     <!-- Discount -->
 
-    <div class="container-fluied p-5"
-        style="background:repeating-linear-gradient(to right,#0f0f0ff2,#612b0bf2,#eb5404ee,#1e140fe6); ">
-        <div class="row">
-            <div class="col  align-self-center">
-                <h4 class="clr-1 mt-3" style="font-size: 2.4rem;">Get 30% Discount</h4>
-                <h1 class="clr mt-4" style="font-size: 4.4rem;">Grill Chicken Stick</h1>
-                <h4 class="clr mt-4" style="font-size: 2.4rem;">Limited Offer</h4>
-                <button class="mt-4 btn btn-primary p-2">Order Now !</button>
+    <div class="container-fluid p-5"
+        style="background:repeating-linear-gradient(to right,#0f0f0ff2,#612b0bf2,#eb5404ee,#1e140fe6);">
+
+        <div class="row align-items-center">
+
+            <!-- LEFT CONTENT -->
+            <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
+                <h4 class="clr-1 mt-3 fs-4">Get 30% Discount</h4>
+                <h1 class="clr mt-3 display-5">Grill Chicken Stick</h1>
+                <h4 class="clr mt-3 fs-4">Limited Offer</h4>
+                <button class="mt-3 btn btn-primary px-4">Order Now !</button>
             </div>
-            <div class="col position-relative ">
-                <img src="./Img/discount.png" alt="">
-                <div class="col-3 position-absolute end-0 d-flex justify-content-center align-items-center"
-                    style="height: 27vh;width: 25vh; bottom: 60px; background-image: url(https://wordpress.themehour.net/restar/wp-content/uploads/2024/05/shape_bg_2.svg); background-repeat: no-repeat; background-size: cover;">
-                    <h1 class="clr">$30</h1>
+
+            <!-- RIGHT IMAGE -->
+            <div class="col-12 col-md-6 position-relative text-center">
+
+                <img src="./Img/discount.png" class="img-fluid" alt="">
+
+                <!-- PRICE BOX -->
+                <div class="position-absolute bottom-0 end-0 translate-middle-y d-flex justify-content-center align-items-center"
+                    style="height: 120px; width: 120px; background-image: url(https://wordpress.themehour.net/restar/wp-content/uploads/2024/05/shape_bg_2.svg); background-size: cover;">
+                    <h3 class="clr">$30</h3>
+
                 </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Food menu -->
+
+    <div class="container-fluid  p-4">
+        <div class="row py-3 gap-4">
+            <div class="col text-center p-3 mb-5">
+                <h2>Our Restaurant Foods <span class="clr-1"> Menu</span></h2>
+                <img class="img-fluid" src="./Img/title-shape.png" alt="">
+            </div>
+        </div>
+        <div class="row px-5  ">
+            <div class="col-md-6 d-flex flex-column gap-3 ">
+                <div class="col-md-12 ">
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_1.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr ">
+                            <div>
+                                <h3>Breakfast Platter</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹200</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_2.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr">
+                            <div>
+                                <h3>Vegetable Salad</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹250</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_3.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr ">
+                            <div>
+                                <h3>Butter Pasta</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹300</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_4.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr">
+                            <div>
+                                <h3>Grilled Chicken</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹399</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_5.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr">
+                            <div>
+                                <h3>Chicken with Rice</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹199</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_6.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr">
+                            <div>
+                                <h3>Raw Salmon Salad</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹589</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex flex-column gap-3 ">
+
+                <div class="col-md-12 ">
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_7.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr">
+                            <div>
+                                <h3>Kozo Sushi Platter</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹599</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_8.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr">
+                            <div>
+                                <h3>Vegetable Salad</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹660</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_9.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr">
+                            <div>
+                                <h3>Raw Salmon Salad</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹390</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_11.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr">
+                            <div>
+                                <h3>Chicken Leg Piece</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹899</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_3.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr">
+                            <div>
+                                <h3>Fired Rice</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹499</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="d-flex gap-3 ">
+                        <img src="./img/product_2.png" style="width: 80px;">
+                        <div class="d-flex gap-5 align-items-center hov-clr">
+                            <div>
+                                <h3>Salmon Salad</h3>
+                                <p>The registration fee covers access</p>
+                            </div>
+                            <div>-----</div>
+                            <h2>₹989</h2>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
             </div>
         </div>
     </div>
 
+
+
+
     <!-- Our Blogs -->
 
-    <div class="container-fluied p-5">
+    <div class="container-fluid p-4" style="background-color: #b5cbe0b9;">
+
+
         <div class="row">
+            
             <div class="col text-center p-3 mb-5">
                 <h2>Our Latest News & <span class="clr-1"> Blogs</span></h2>
                 <img src="./Img/title-shape.png" alt="">
             </div>
         </div>
-     <div class="row gap-3">
-        <div class="card p-0" style="width: 19rem;">
-            <img src="./Img/blog-s-1.jpg" class="" alt="...">
-            <div class="card-body p-1">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="row gap-3 justify-content-center">
+           
+            <div class="card p-0 zoo" style="width: 19rem; ">
+                <div>
+                    <img src="./Img/blog-s-1.jpg" class="" alt="...">
+                </div>
+                <div class="card-body p-1">
+                    <h5 class="card-title">
+                        Jan 23, 2026Restaurant
+                    </h5>
+                    <p class="card-text"> What Types of Massala Is The Best in Cooking
+                    </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                </div>
             </div>
-        </div>
-        <div class="card p-0" style="width: 19rem;">
-            <img src="./Img/blog-s-2.jpg" class="" alt="...">
-            <div class="card-body p-1">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            
+            <div class="card p-0 zoo" style="width: 19rem;">
+                <img src="./Img/blog-s-2.jpg" class="" alt="...">
+                <div class="card-body p-1">
+                    <h5 class="card-title"> April 23, 2026Lunch</h5>
+                    <p class="card-text"> The Fresh Ingredients That Define Our Dishes
+                    </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                </div>
             </div>
-        </div>
-        <div class="card p-0" style="width: 19rem;">
-            <img src="./Img/blog-s-3.jpg" class="" alt="...">
-            <div class="card-body p-1">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card p-0 zoo" style="width: 19rem;">
+                <img src="./Img/blog-s-3.jpg" class="" alt="...">
+                <div class="card-body p-1">
+                    <h5 class="card-title">May 28, 2026 Dinner</h5>
+                    <p class="card-text">Good Cook Always Use These Types of Tricks</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
             </div>
-        </div>
-        <div class="card p-0" style="width: 19rem;">
-            <img src="./Img/blog-s-4.jpg" class="" alt="...">
-            <div class="card-body p-1">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card p-0 zoo" style="width: 19rem;">
+                <img src="./Img/blog-s-4.jpg" class="" alt="...">
+                <div class="card-body p-1">
+                    <h5 class="card-title">Mar 18, 2026 freak fast</h5>
+                    <p class="card-text">Only Pure Ingredients Can Increase Food Taste</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+
+
             </div>
         </div>
     </div>
-</div>
+
+
+
+
+
+
+    <!-- MAP -->
+    <div class="container p-4 mt-3">
+  <div class="row">
+            <div class="col text-center p-3 mb-5">
+                <h2><span class="clr-1"> Contact</span></h2>
+                <img src="./Img/title-shape.png" alt="">
+            </div>
+        </div>
+
+        <div class="row align-items-stretch ">
+            <div class="col-md-6 d-flex " >
+                <div class="contact-card h-100 p-4">
+                    <h2 class="mb-3 ">Drop Us Line</h4>
+                    <form action="" class="p-2" >
+                        <label for="name" class="lap">Full name</label><br>
+                        <input type="text" id="name" class="in" placeholder="What's your full name" required><br>
+                        <label for="mail"class="lap">E-mail</label><br>
+                        <input type="email" id="mail" class="in" placeholder="your@gmail.com" required><br>
+                        <label for="msg" class="lap">Message</label><br>
+                        <textarea name="What" id="msg" rows="2" class="in"
+                            placeholder="Write your message for the team here ..."></textarea>
+                        <br>
+                        <input class="btn btn-primary " type="submit">
+                    </form>
+                </div>
+            </div>
+            <!-- Replace with your map -->
+            <div class="col-12 col-md-12 col-lg-6 p-4">
+                <div class="ratio ratio-16x9">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4819.8860707588!2d78.07558610635797!3d10.95935090935144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa2faf8af44433%3A0x7ae715a65dcc88a1!2sKarur%20Bus%20Stand!5e0!3m2!1sen!2sin!4v1774080561291!5m2!1sen!2sin"
+                        style="border:0;width:100%; height:100%; min-height:250px;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer text-center text-md-start">
+
+        <div class="container">
+            <div class="row justify-content-between">
+
+                <!-- LOGO / ABOUT -->
+                <div class="col-md-4 mb-4">
+                    <div class="col">
+                        <img src="./Img/logo.svg" alt="">
+                    </div>
+                    <p>Delicious food, delivered fast! Enjoy burgers, fries, and more with premium taste.</p>
+                    <div class="row h-25  gap-3 mb-3 ico justify-content-center justify-content-lg-start">
+                        <div class="col-1 bod">
+                            <i id="green" class="fa fa-whatsapp" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="col-1 bod">
+                            <i id="blue" class="fa l-blue fa-facebook-official" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="col-1 bod">
+                            <i id="darkblue" class="fa blue fa-twitter" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="col-1 bod">
+                            <i id="red" class="fa red fa-youtube-play" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="col-1 bod">
+                           <i class="fa bink fa-instagram" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LINKS -->
+
+                <div class="col-md-2 mb-4 text-center">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4 text-center">
+                    <h5>HELP</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Authors</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- CONTACT INFO -->
+                <div class="col-md-3 mb-4">
+                    <h4>Contact Info</h4>
+                    <p>Email: info@fastfood.com</p>
+                    <p>Phone: +91 6379410214</p>
+
+                    <div class="social-icons mt-3">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+                <p class="mb-0">© 2026 Fast Food Restaurant | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
 
 
 

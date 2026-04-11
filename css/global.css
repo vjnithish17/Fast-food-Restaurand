@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fleur+De+Leah&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --bs-gray-100: #C59D5F;
-    --bs-font-sans-serif: "Dancing Script", cursive;
+    --bs-font-sans-serif: "Cormorant Garamond", serif;
     --bs-font-monospace: "Fleur De Leah", cursive;
+    --bs-sign-allra: "Allura", cursive;
 }
 
 * {
@@ -252,7 +253,7 @@ img {
 }
 
 .container-fluid {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .row {

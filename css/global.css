@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fleur+De+Leah&display=swap');
+
+:root {
+    --bs-gray-100: #C59D5F;
+    --bs-font-sans-serif: "Dancing Script", cursive;
+    --bs-font-monospace: "Fleur De Leah", cursive;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -254,12 +262,14 @@ img {
 body {
     overflow-x: hidden;
 }
+
 /* contact */
 
-.lap{
+.lap {
     margin-bottom: 4px;
 }
-.in{
+
+.in {
     margin-bottom: 10px;
     width: 40vh;
 
@@ -278,7 +288,7 @@ body {
 
 
 .footer a {
-    color:sandybrown;
+    color: sandybrown;
     font-size: 20px;
     text-decoration: none;
 }
@@ -287,67 +297,77 @@ body {
     color: orange;
 }
 
-.bod i{
+.bod i {
     font-size: 2rem;
     border-radius: 60%;
     background-color: white;
     color: green;
 }
-.bod .blue{
+
+.bod .blue {
     color: blue;
 }
-.bod .l-blue{
+
+.bod .l-blue {
     color: rgb(78, 78, 253);
 }
-.bod .red{
+
+.bod .red {
     color: red;
 }
-.bod .bink{
-    color:rgb(255, 0, 43);
+
+.bod .bink {
+    color: rgb(255, 0, 43);
 }
-.bod:hover i{
+
+.bod:hover i {
     transform: translateY(-10px);
 }
+
 /* blog */
 .zoo {
     overflow: hidden;
-    
+
 }
-.zoo img{
+
+.zoo img {
     transition: 0.5s linear;
 }
-.zoo:hover img{
-  transform: scale(1.04);
+
+.zoo:hover img {
+    transform: scale(1.04);
 }
 
 /* home */
 
-.ds::after{
+.ds::after {
     position: absolute;
     content: "";
     height: 1px;
     width: 80px;
     background-color: #C59D5F;
-      top: 28px;
-      right:5.4rem ;
+    top: 28px;
+    right: 5.4rem;
 }
-.ds::before{
+
+.ds::before {
     position: absolute;
     content: "";
     height: 1px;
     width: 80px;
     background-color: #C59D5F;
-      top: 24px;
-      left:5.4rem ;
+    top: 24px;
+    left: 5.4rem;
 }
 
 
-.img img{
+.img img {
 
-   width: 150px;
+    width: 150px;
     filter: drop-shadow(0px 15px 25px rgba(0, 0, 0, 0.35));
     transition: 0.3s ease;
 }
+
 .img:hover {
     transform: translateY(-10px) scale(1.05);
     filter: drop-shadow(0px 25px 35px rgba(0, 0, 0, 0.5));

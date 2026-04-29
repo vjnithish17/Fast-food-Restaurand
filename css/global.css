@@ -11,8 +11,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
+     max-width: 100%;
 }
 
+body {
+    overflow-x: hidden;
+}
 .hero-1,
 .hero-bg1 {
     background-image: url(../Img/hero_bg_1.png);

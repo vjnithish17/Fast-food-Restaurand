@@ -12,7 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     /* outline: 1px solid red; */
-     max-width: 100%;
+    /* max-width: 100%; */
 }
 
 .hero-1,
@@ -150,8 +150,12 @@ input {
     background: none;
     border: none;
     border-bottom: 2px solid gray;
-    padding-right: 30px;
-    font-size: 20px;
+    padding-right: 80px;
+    font-size: 15px;
+}
+.lap {
+    margin-bottom: 4px;
+    font-size: 1.6rem;
 }
 
 /* Offer */
@@ -255,7 +259,7 @@ img {
 }
 
 .container-fluid {
-    overflow: hidden;
+    overflow: visible;
 }
 
 .row {
@@ -268,13 +272,13 @@ body {
 
 /* contact */
 
-.lap {
-    margin-bottom: 4px;
-}
+
 
 .in {
     margin-bottom: 10px;
-    width: 40vh;
+    /* width: 40vh; */
+    width: 100%;
+    max-width: 400px;
 
 }
 
@@ -299,11 +303,17 @@ body {
 .footer a:hover {
     color: orange;
 }
-
-.bod i {
-    font-size: 2rem;
-    border-radius: 60%;
+.bod{
+    height: 40px;
+    width: 40px;
+     border-radius: 50%;
     background-color: white;
+    display: grid;
+    place-items: center;
+
+}
+.bod i {
+    font-size: 1.4rem;
     color: green;
 }
 
@@ -376,6 +386,13 @@ body {
     filter: drop-shadow(0px 25px 35px rgba(0, 0, 0, 0.5));
 }
 
+.r-3{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.f-size{
+    font-size: 4rem;
+}
 
 
 
@@ -392,17 +409,53 @@ body {
         grid-row: span 1;
         /* reset */
     }
+
+    .hov-clr {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 5px !important;
+    }
+
+    .hero-1 .row {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-1 .col {
+        width: 100%;
+    }
+
+    .event-img {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+    .r-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.f-size{
+    font-size: 2rem;
+}
+.lap {
+    margin-bottom: 4px;
+    font-size: 1.5rem;
+}
+
 }
 
 @media (max-width: 480px) {
     .gallery {
         grid-template-columns: 1fr;
     }
+
     .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 10px;
-}
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 10px;
+    }
 
     .item1,
     .item2,
